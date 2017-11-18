@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/lvlbackimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <!-- android:background="@drawable/globalback" -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <ImageView
+                android:id="@+id/select"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+        <TextView
+            android:id="@+id/worldname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#800000"
+            android:textSize="@dimen/_18sdp" />
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="@dimen/_420sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:background="@android:color/transparent"
+            android:divider="@drawable/linearspace"
+            android:gravity="center_horizontal"
+            android:numColumns="5"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="0dip"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:showDividers="middle" >
+        </GridView>
+    </RelativeLayout>
+
+</RelativeLayout>

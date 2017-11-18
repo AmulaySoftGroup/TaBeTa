@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_id">1027684721950</string>
+  <string name="package_name">ir.amulay.tabeta</string>
+  <string name="achievement_3_stars">CgkInsqhtvQdEAIQAQ</string>
+  <string name="achievement_first_world_all">CgkInsqhtvQdEAIQBA</string>
+  <string name="achievement_final_point">CgkInsqhtvQdEAIQBQ</string>
+  <string name="achievement_game_comes_to_half">CgkInsqhtvQdEAIQBg</string>
+  <string name="achievement_hint_all">CgkInsqhtvQdEAIQBw</string>
+  <string name="leaderboard_cups_leaderboard">CgkInsqhtvQdEAIQAg</string>
+  <string name="leaderboard_coins_leaderboard">CgkInsqhtvQdEAIQAw</string>
+</resources>

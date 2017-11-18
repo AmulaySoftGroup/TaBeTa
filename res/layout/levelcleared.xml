@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_450sdp"
+    android:layout_height="@dimen/_264sdp" >
+
+    <ImageView
+        android:layout_width="@dimen/_450sdp"
+        android:layout_height="@dimen/_253sdp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/levelcleared"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bt_exit" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_65sdp"
+        android:layout_marginTop="@dimen/_38sdp"
+        android:background="@android:color/transparent"
+        android:divider="@drawable/linearspace"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:showDividers="middle" >
+
+        <ImageButton
+            android:id="@+id/review"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_review" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/remaintime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Percent"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15sdp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:divider="@drawable/linearspace"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:showDividers="middle" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staroff" />
+
+                <ImageView
+                    android:id="@+id/star1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staron"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staroff" />
+
+                <ImageView
+                    android:id="@+id/star2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staron"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staroff" />
+
+                <ImageView
+                    android:id="@+id/star3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staron"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cupgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="CupGot"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:id="@+id/coingot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CoinGot"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/totcups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="TotalCups"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_20sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:divider="@drawable/linearspace"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <ImageButton
+            android:id="@+id/levelselect"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_listlevel" />
+
+        <ImageButton
+            android:id="@+id/camcomp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_camcomp" />
+
+        <ImageButton
+            android:id="@+id/replay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_replay" />
+
+        <ImageButton
+            android:id="@+id/nextlvl"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_nextpage" />
+    </LinearLayout>
+
+</RelativeLayout>

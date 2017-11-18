@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabeTa</string>
+    <string name="RePlay">RePlay</string>
+    <string name="MainMenu">MainMenu</string>
+    <string name="Soon">به زودی... :)</string>
+    <string name="NotSignedIn">لطفا ابتدا وارد گوگل پلی شوید!</string>
+    <string name="VideoEror">ویدئویی موجود نیست و یا دسترسی به اینترنت وجود ندارد</string>
+
+    <string-array name="LEVLE1">
+        <item>آموزشی!</item>
+        <item>سینی</item>
+        <item>خانه</item>
+        <item>پیکسل</item>
+        <item>6 ضلعی</item>
+        <item>بازتاب</item>
+        <item>تــاج</item>
+        <item>بــِــشـِر</item>
+        <item>فولدر</item>
+        <item>چمدان</item>
+        <item>حرف S</item>
+        <item>کوهستان</item>
+        <item>تـــیک</item>
+        <item>پاپیون</item>
+        <item>گل لاله</item>
+    </string-array>
+    <string-array name="LEVLE2">
+        <item>گلدفیش</item>
+        <item>وال</item>
+        <item>سکــو</item>
+        <item>متساوی الساقین</item>
+        <item>مقبره خیام</item>
+        <item>کلاهخــود</item>
+        <item>حرف J</item>
+        <item>فندک</item>
+        <item>گردش به راست</item>
+        <item>قایق تندرو</item>
+        <item>ســیرک</item>
+        <item>اگزوز</item>
+        <item>مارپــیچ</item>
+        <item>سطل زبــاله</item>
+        <item>جت جنگی</item>
+    </string-array>
+    <string-array name="LEVLE3">
+        <item>موشک</item>
+        <item>مثلث</item>
+        <item>بچه قورباغه</item>
+        <item>حرف T</item>
+        <item>زاغــک</item>
+        <item>بــُز</item>
+        <item>عصا</item>
+        <item>هود</item>
+        <item>سکــوی پـَرش</item>
+        <item>سنگ قبر</item>
+        <item>منقار</item>
+        <item>مــاله</item>
+        <item>زی زی گولو</item>
+        <item>تابوت</item>
+        <item>قلــب</item>
+    </string-array>
+    <string-array name="LEVLE4">
+        <item>کبوتر</item>
+        <item>اتــو</item>
+        <item>تلفــن</item>
+        <item>مربع</item>
+        <item>چکمه</item>
+        <item>دانشگاه تهران</item>
+        <item>چــرخ</item>
+        <item>حرف V</item>
+        <item>نارنجک</item>
+        <item>لـــایک</item>
+        <item>نهنگ</item>
+        <item>خرطــوم</item>
+        <item>زیرگذر</item>
+        <item>اُردک</item>
+        <item>حلزون</item>
+    </string-array>
+    <string-array name="LEVLE5">
+        <item>چکُش</item>
+        <item>فــُک</item>
+        <item>سر نیزه</item>
+        <item>زرافه</item>
+        <item>گاو</item>
+        <item>روباه</item>
+        <item>تاکو</item>
+        <item>پلکان</item>
+        <item>دودکش</item>
+        <item>جوراب</item>
+        <item>سوسک</item>
+        <item>کفش</item>
+        <item>کــُلت</item>
+        <item>دوراهی</item>
+        <item>پهــباد</item>
+    </string-array>
+    <string-array name="LEVLE6">
+        <item>قایق</item>
+        <item>تی شِرت</item>
+        <item>شلوار</item>
+        <item>تــانک</item>
+        <item>گوگل درایو</item>
+        <item>یــقه</item>
+        <item>حرف G</item>
+        <item>پرنده</item>
+        <item>دمبل</item>
+        <item>مبل</item>
+        <item>پینوکیو</item>
+        <item>حرف Z</item>
+        <item>لامپ مهتابی</item>
+        <item>ســیبــیل</item>
+        <item>گربه</item>
+    </string-array>
+            <string-array name="LEVLE7">
+        <item>پروانه</item>
+        <item>پاکت ها</item>
+        <item>هابل!</item>
+        <item>پوتین</item>
+        <item>هــاپو!</item>
+        <item>بچه فیـــل</item>
+        <item>مــوش!</item>
+        <item>ضــبط</item>
+        <item>کانگورو</item>
+        <item>اژدها</item>
+        <item>رتیـــل</item>
+        <item>آهـــو!</item>
+        <item>قایــق</item>
+        <item>عقرب</item>
+        <item>مار زنــگی!</item>
+    </string-array>
+
+</resources>

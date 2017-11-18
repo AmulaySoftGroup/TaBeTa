@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/levelitem"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/starspanel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:divider="@drawable/linearspace_levelitem"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staroff" />
+
+                <ImageView
+                    android:id="@+id/star1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staron"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staroff" />
+
+                <ImageView
+                    android:id="@+id/star2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staron"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staroff" />
+
+                <ImageView
+                    android:id="@+id/star3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/staron"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/levelnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:gravity="center"
+            android:text="Level1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_10sdp" />
+
+        <RelativeLayout
+            android:id="@+id/lock"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/lock"
+            android:orientation="vertical" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

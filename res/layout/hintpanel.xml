@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_450sdp"
+    android:layout_height="@dimen/_253sdp"
+    android:background="@drawable/hintpannel" >
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bt_exit" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:divider="@drawable/linearspace"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:showDividers="middle" >
+
+        <TextView
+            android:id="@+id/lvlhintcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hints CF Level"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/yourcoincount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="your coin count"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15sdp" />
+
+        <LinearLayout
+            android:id="@+id/hintusebox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/linearspace"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:showDividers="middle" >
+
+            <ImageButton
+                android:id="@+id/usehint"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bt_usehint" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:id="@+id/prehint"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bt_prehint" />
+
+                <TextView
+                    android:id="@+id/prehintcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="2"
+                    android:textColor="#ff0000"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:divider="@drawable/linearspace"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:showDividers="middle" >
+
+            <ImageButton
+                android:id="@+id/buybt"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bt_buy" />
+
+            
+
+            <ImageButton
+                android:id="@+id/getfreehint"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bt_freehint" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/remaintime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RemainTime"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+</RelativeLayout>

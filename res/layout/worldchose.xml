@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- android:background="@drawable/globalback" -->
+
+    <ImageView
+        android:id="@+id/wrdbackimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/_450sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <TextView
+            android:id="@+id/worldname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#800000"
+            android:textSize="@dimen/_17sdp" />
+
+        <RelativeLayout
+            android:id="@+id/rele"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_40sdp" >
+
+            <android.support.v4.view.ViewPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/view_pager"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent" />
+
+            
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/rele"
+            android:background="@android:color/transparent"
+            android:divider="@drawable/linearspace"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <ImageButton
+                android:id="@+id/nextbutton"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_nextpage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_toLeftOf="@+id/rele"
+            android:background="@android:color/transparent"
+            android:divider="@drawable/linearspace"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <ImageButton
+                android:id="@+id/prevbutton"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_prevpage" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/enterworld"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bt_enterworld" />
+        </LinearLayout>
+</RelativeLayout>
